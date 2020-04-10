@@ -1,0 +1,18 @@
+<templateSet group="我的代码模板">
+  <template name="logw" value="&lt;!--================ $word$ ================--&gt;" description="网页代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="word" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+      <option name="MAVEN" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="logv" value="console.log($COPY$);" description="输出日志" toReformat="false" toShortenFQNames="true">
+    <variable name="COPY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

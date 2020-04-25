@@ -15,4 +15,9 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="cvm" value="const vm = this;" description="this指向VueModel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
